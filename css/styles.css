@@ -2,6 +2,9 @@
 @import "reset.css";
 @import "menu.css";
 
+body{
+    padding-top: 5rem;
+}
 p{ /* 폰트 */
     font-family: "Gowun Batang", serif;
     font-weight: 400;
