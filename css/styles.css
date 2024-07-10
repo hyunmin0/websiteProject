@@ -6,12 +6,12 @@ p{ /* 폰트 */
     font-style: normal;
 }
 .nav{
-    /* 만약 윗단을 고정하려고 할때
+    /* 만약 윗단을 고정하려고 할때 */
     position: fixed;
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    */
+    
     padding: 20px 80px;
     background-color: #f9f9fa;
 }
