@@ -38,7 +38,7 @@ p{ /* 폰트 */
     color: black;
     text-decoration: none;
 }
-.menu-item a:hover {
+.menu-item a:hover:not(.menu2 li a) {
     background-color: #49e9c3be;
 }
 .submenu {
@@ -69,4 +69,27 @@ p{ /* 폰트 */
 .img__background{
     height: 100%;
     width: 100%;
+}
+
+/*메인 화면 세부 메뉴 */
+.menu2{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.menu2 li {
+    position: absolute;
+    display: flex;
+    padding: 1vw 1vw;
+}
+.menu2 li a {
+    padding: 0 0;
+    margin: 0 1.2vw;
+    font-size: 1.3rem;
+}
+
+/* 형광펜 효과 */
+.highlight {
+    background: linear-gradient(to top, yellow 30%, transparent 30%);
+    width: fit-content;
 }
