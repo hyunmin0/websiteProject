@@ -1,0 +1,40 @@
+/*main-theme*/
+.main-theme h1 {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 0;
+}
+.main-theme__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+.main-theme__item li {
+  display: block;
+  position: relative;
+}
+.main-theme__item li > p {
+  display: block;
+  position: absolute;
+}
+.main-theme__item .theme__img{
+  width: 25vw;
+  max-width: 300px;
+  border: 1px solid black;
+}
+.main-theme__item a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding: 1.5rem 0;
+  color: black;
+}
+.main-theme__item .theme__text {
+  padding: 0.2rem 0;
+  text-align: center;
+}
